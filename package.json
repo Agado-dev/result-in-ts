@@ -37,7 +37,7 @@
     "check:types": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
     "ci": "pnpm run build && npm run lint && pnpm run check:types && pnpm run test",
     "prepublishOnly": "npm run ci",
-    "release": "changeset version && changeset publish"
+    "release:create": "changeset version && changeset publish"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.16.4",
