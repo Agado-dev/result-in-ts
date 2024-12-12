@@ -27,7 +27,7 @@ pnpm add result-in-ts          # pnpm
 Here's a basic example of how to use Result-in-ts:
 
 ```typescript
-import { Result } from "./result";
+import { Result } from "result-in-ts";
 
 function divide(a: number, b: number): Result<number, string> {
   if (b === 0) {
